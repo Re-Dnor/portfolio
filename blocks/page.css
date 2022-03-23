@@ -2,3 +2,7 @@
     background: #042038;
     min-height: 2000px;  /*позже удалить!!!!! */
 }
+
+.page__slider {
+    margin-top: 200px
+}

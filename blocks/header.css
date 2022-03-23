@@ -53,6 +53,7 @@
     right: 100px;
     border-radius: 60%;
     box-shadow: 0 0 200px 10px white, inset 0 0 30px white;
+    animation: rotation 60s infinite linear;
 }
 
 .road {
@@ -74,4 +75,13 @@
     text-shadow:0 0 10px #042038;
     font-size: 64px;
     z-index: 1;
+}
+
+@keyframes rotation {
+    from {
+    transform: rotate(0deg);
+}
+    to {
+    transform: rotate(360deg);
+}
 }

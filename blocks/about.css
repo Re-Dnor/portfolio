@@ -1,0 +1,28 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about__photo {
+    width: 450px;
+    height: auto;
+    border-radius: 35px;
+    position: relative;
+}
+
+.about__photo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #042038;
+    z-index: 1000;
+    mix-blend-mode: color;
+}
+
+.about__subtitle_color_pink {
+    color: rgb(159, 52, 173);
+}

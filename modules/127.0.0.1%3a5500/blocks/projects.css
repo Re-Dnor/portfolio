@@ -1,12 +1,5 @@
-.projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
 .projects__title {
-    margin-bottom: 50px;
+    /* margin: 0 auto; */
 }
 
 .projects__wrapper {

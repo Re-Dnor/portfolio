@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
 </head>
@@ -26,13 +27,14 @@
       <div>
         <img class="about__photo" src="./img/photo_2022-01-14_19-59-34.jpg" alt="Александр Мокшин">
       </div>
+      <div class="contacts" data-aos="fade-zoom-in" data-aos-offset="0">
+        <img class="contacts__logo" src="./img/icon/email.png" alt="Почта">
+        <img class="contacts__logo" src="./img/icon/github.png" alt="Гитхаб">
+        <img class="contacts__logo" src="./img/icon/telegram.png" alt="Телеграм">
+      </div>
     </div>
 
-    <div class="contacts">
-      <img src="./img/icon/email.png" alt="Почта">
-      <img src="./img/icon/github.png" alt="Гитхаб">
-      <img src="./img/icon/telegram.png" alt="Телеграм">
-    </div>
+    
 
     <div class="projects  page__slider">
       <h2 class="projects__title">Проекты</h2>
@@ -75,5 +77,9 @@
 
   <script src="./index.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: relative;
 }
 
 .about__photo {
@@ -9,6 +10,7 @@
     height: auto;
     border-radius: 35px;
     position: relative;
+    z-index: 1;
 }
 
 .about__photo::after {
@@ -24,5 +26,5 @@
 }
 
 .about__subtitle_color_pink {
-    color: rgb(159, 52, 173);
+    color: #ff06c5;
 }

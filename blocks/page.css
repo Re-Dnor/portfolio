@@ -1,6 +1,7 @@
 .page {
   background: #042038;
-  min-height: 2000px; /*позже удалить!!!!! */
+  min-height: 2900px;
+  position: relative;
 }
 
 .page__about {

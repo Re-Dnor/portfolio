@@ -1,0 +1,12 @@
+.back__arrow {
+  transform: rotate(270deg);
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  transition: 0.5s linear;
+}
+.back__arrow:hover {
+  opacity: 0.5;
+}

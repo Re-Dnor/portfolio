@@ -5,6 +5,7 @@
 @import url(./blocks/about.css);
 @import url(./blocks/contacts.css);
 @import url(./blocks/projects.css);
+@import url(./blocks/arrow.css);
 
 * {
   margin: 0;

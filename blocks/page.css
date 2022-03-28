@@ -1,12 +1,12 @@
 .page {
-    background: #042038;
-    min-height: 2000px;  /*позже удалить!!!!! */
+  background: #042038;
+  min-height: 2000px; /*позже удалить!!!!! */
 }
 
 .page__about {
-    margin-top: 200px;
+  margin-top: 200px;
 }
 
 .page__slider {
-    margin-top: 200px;
+  margin-top: 200px;
 }

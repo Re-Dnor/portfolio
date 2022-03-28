@@ -1,33 +1,33 @@
 .projects {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .projects__title {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .projects__wrapper {
-    margin: 0 auto;
-    width: 60vw;
-    position: relative;
+  margin: 0 auto;
+  width: 60vw;
+  position: relative;
 }
 
 .carousel-indicators {
-    position: absolute;
-    bottom: -100px;
+  position: absolute;
+  bottom: -100px;
 }
 
 .carousel-control-next-icon {
-    position: absolute;
-    bottom: -60px;
-    right: 0;
+  position: absolute;
+  bottom: -60px;
+  right: 0;
 }
 
 .carousel-control-prev-icon {
-    position: absolute;
-    bottom: -60px;
-    left: 0;
+  position: absolute;
+  bottom: -60px;
+  left: 0;
 }

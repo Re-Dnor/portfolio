@@ -1,6 +1,5 @@
 .page {
   background: #042038;
-  min-height: 2900px;
   position: relative;
 }
 
@@ -10,4 +9,12 @@
 
 .page__slider {
   margin-top: 200px;
+}
+
+.page__footer {
+  margin-top: 200px;
+}
+
+.footer__title_color_red {
+  color: rgb(216, 29, 29);
 }

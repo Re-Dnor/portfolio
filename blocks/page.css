@@ -1,5 +1,6 @@
 .page {
-  background: #042038;
+  /* background: #042038; */
+  background: linear-gradient(#042038 95%, #0f60a7);
   position: relative;
 }
 
@@ -13,8 +14,4 @@
 
 .page__footer {
   margin-top: 200px;
-}
-
-.footer__title_color_red {
-  color: rgb(216, 29, 29);
 }

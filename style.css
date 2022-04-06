@@ -15,3 +15,8 @@
   color: white;
   font-family: "Montserrat", sans-seri;
 }
+
+.easter-egg {
+  cursor: pointer;
+  text-decoration: none;
+}

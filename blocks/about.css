@@ -18,18 +18,7 @@
   border-radius: 35px;
   position: relative;
   z-index: 1;
-}
-
-.about__photo::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #042038;
-  z-index: 1000;
-  mix-blend-mode: color;
+  cursor: pointer;
 }
 
 .about__subtitle_color_pink {

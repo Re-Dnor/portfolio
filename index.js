@@ -15,6 +15,18 @@ window.addEventListener('scroll', function () {
     title.style.top = value * 0.7 + 'px';
 });
 
+const easterEgg = document.getElementById('easterEgg');
+let i = 0;
+
+function stopDefAction(evt) {
+    evt.preventDefault();
+    i += 1;
+    if (i === 25) {
+        easterEgg.src = './img/OMG.jpg';
+    }
+}
+easterEgg.addEventListener('click', stopDefAction);
+
 AOS.init({
     // Global settings:
     disable: false, // accepts following values: 'phone', 'tablet', 'mobile', boolean, expression or function

@@ -16,15 +16,21 @@ window.addEventListener('scroll', function () {
 });
 
 const easterEgg = document.getElementById('easterEgg');
+const age = document.getElementById('age');
+const myAge = 25;
 let i = 0;
+
 
 function stopDefAction(evt) {
     evt.preventDefault();
     i += 1;
-    if (i === 25) {
+    console.log(i);
+    age.innerHTML = `${i}`;
+    if (i === myAge) {
         easterEgg.src = './img/OMG.jpg';
+        easterEgg.removeEventListener('click', stopDefAction);
     }
-}
+};
 easterEgg.addEventListener('click', stopDefAction);
 
 AOS.init({

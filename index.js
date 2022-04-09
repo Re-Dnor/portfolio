@@ -1,37 +1,8 @@
-const moon = document.getElementById('moon');
-const bg = document.getElementById('background');
-const mountain = document.getElementById('mountain');
-const road = document.getElementById('road');
-const title = document.getElementById('title');
+import parallax from "./src/parallax.js"
+import easteEggCounter from "./src/easteEggCounter.js"
 
-
-window.addEventListener('scroll', function () {
-    let value = window.scrollY;
-
-    bg.style.top = value * 0.5 + 'px';
-    moon.style.right = 100 - value * 0.5 + 'px';
-    mountain.style.top = -value * 0.4 + 'px';
-    road.style.bottom = value * 0.15 - 'px';
-    title.style.top = value * 0.7 + 'px';
-});
-
-const easterEgg = document.getElementById('easterEgg');
-const age = document.getElementById('age');
-const myAge = 25;
-let i = 0;
-
-
-function stopDefAction(evt) {
-    evt.preventDefault();
-    i += 1;
-    console.log(i);
-    age.innerHTML = `${i}`;
-    if (i === myAge) {
-        easterEgg.src = './img/OMG.jpg';
-        easterEgg.removeEventListener('click', stopDefAction);
-    }
-};
-easterEgg.addEventListener('click', stopDefAction);
+parallax();
+easteEggCounter();
 
 AOS.init({
     // Global settings:

@@ -7,7 +7,7 @@ export default function easteEggCounter() {
   function stopDefAction(evt) {
     evt.preventDefault();
     i += 1;
-    console.log(i);
+    console.log(myAge);
     age.innerHTML = `${i}`;
     if (i === myAge) {
       easterEgg.src = './img/OMG.jpg';

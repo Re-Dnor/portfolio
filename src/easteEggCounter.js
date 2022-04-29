@@ -1,7 +1,7 @@
 export default function easteEggCounter() {
   const easterEgg = document.getElementById('easterEgg');
   const age = document.getElementById('age');
-  const myAge = 25;
+  const myAge = 26;
   let i = 0;
 
   function stopDefAction(evt) {

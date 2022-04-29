@@ -31,3 +31,13 @@
   bottom: -60px;
   left: 0;
 }
+
+.carousel-caption {
+  bottom: 85%;
+  background-color: rgb(138, 138, 138, .3);
+}
+
+.carousel__title {
+  color: #ff06c5;
+  text-shadow: 0px 0px 5px #ff06c5;;
+}

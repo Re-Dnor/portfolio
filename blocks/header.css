@@ -85,3 +85,9 @@
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 480px) {
+  .header__title {
+    font-size: 42px;
+  }
+}

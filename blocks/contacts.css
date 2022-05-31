@@ -16,3 +16,23 @@
 .contacts__logo:hover {
   opacity: 0.5;
 }
+
+
+@media (max-width: 1080px) {
+  .contacts {
+    position: relative;
+    margin-top: 20px;
+    padding: 0;
+    left: 0;
+    top: 0;
+    flex-direction: row;
+    column-gap: 20px;
+  }
+}
+
+@media (max-width: 360px) {
+  .contacts__logo {
+    width: 35px;
+    height: 35px;
+  }
+}

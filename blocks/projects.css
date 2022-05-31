@@ -44,3 +44,47 @@
   color: #ff06c5;
   text-shadow: 0px 0px 5px #ff06c5;;
 }
+
+.link-project {
+  display: none;
+}
+
+@media (max-width: 1280px) {
+  .projects__wrapper {
+    width: 80vw;
+  }
+}
+
+@media (max-width: 480px) {
+  .projects__wrapper {
+    display: none;
+  }
+
+  .link-project {
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .link-project__title {
+    text-align: center;
+  }
+
+  .link-project__github {
+    text-decoration: none;
+    cursor: pointer;
+    color: #ff06c5;
+    transition: 0.5s linear;
+  }
+  .link-project__github:hover {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 360px) {
+  .link-project__title {
+    font-size: 24px;
+  }
+}

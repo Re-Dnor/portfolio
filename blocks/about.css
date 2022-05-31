@@ -26,3 +26,56 @@
 .about__subtitle_color_pink {
   color: #ff06c5;
 }
+
+@media (max-width: 1280px) {
+  .about {
+    column-gap: 50px;
+  }
+}
+
+
+@media (max-width: 1080px) {
+  .about {
+    flex-direction: column;
+    row-gap: 25px;
+    column-gap: 0;
+  }
+
+  .about__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 720px) {
+  .about__photo {
+    width: 350px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about__title {
+    font-size: 28px;
+  }
+  .about__subtitle {
+    font-size: 18px;
+    margin: 0;
+  }
+  .about__photo {
+    width: 300px;
+  }
+}
+
+@media (max-width: 360px) {
+  .about__title {
+    font-size: 24px;
+  }
+  .about__subtitle {
+    font-size: 16px;
+  }
+  .about__photo {
+    width: 250px;
+  }
+}

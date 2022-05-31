@@ -10,3 +10,9 @@
 .back__arrow:hover {
   opacity: 0.5;
 }
+
+@media (max-width: 480px) {
+  .back__arrow {
+    display: none;
+  }
+}

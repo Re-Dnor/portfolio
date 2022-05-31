@@ -33,6 +33,9 @@
 }
 
 .carousel-caption {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   bottom: 85%;
   background-color: rgb(138, 138, 138, .3);
 }
